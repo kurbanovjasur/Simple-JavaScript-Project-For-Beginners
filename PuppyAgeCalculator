@@ -1,0 +1,8 @@
+//The Puppy Age Calculator 
+//Task from this website https://www.teaching-materials.org/javascript/exercises/functions
+const calculateDogAge = age =>{
+	const result = age*7;
+	console.log(`Your doggie is ${result} old in dog years`);
+}
+
+calculateDogAge(4);
